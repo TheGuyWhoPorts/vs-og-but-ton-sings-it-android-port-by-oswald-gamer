@@ -2256,7 +2256,7 @@ class PlayState extends MusicBeatState
 		if(ClientPrefs.scoreZoom && !miss && !cpuControlled)
 		{
 			if(scoreTxtTween != null) {
-				scoreTxtTween.cancel();
+				scoreTxtTween.cancel(Port By Oswald Gamer);
 			}
 			scoreTxt.scale.x = 1.075;
 			scoreTxt.scale.y = 1.075;
